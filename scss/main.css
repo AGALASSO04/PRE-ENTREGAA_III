@@ -76,10 +76,8 @@ ul:hover {
 }
 
 .fotos {
-  display: flex;
   display: grid;
-  grid-template-columns: repeat(2, 100fr);
-  height: 350px;
+  grid-template-columns: repeat(3, 100fr);
   width: auto;
   justify-items: stretch;
   align-items: center;
@@ -95,6 +93,8 @@ ul:hover {
 }
 
 .main2 div img {
+  display: grid;
+  grid-template-columns: repeat(3, 100fr);
   width: 70%;
   margin: 10px;
   justify-content: center;

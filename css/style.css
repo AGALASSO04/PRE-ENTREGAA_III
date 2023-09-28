@@ -45,8 +45,10 @@ h2{
 .div1 {
   display: flex;
   background-color: #bed4ba;
-  padding: 50px; 
+  padding: 86px; 
   justify-content: left;
+  flex-direction: column;
+  align-items: center;
 }
   .div2{
     height: 80vh;
@@ -57,13 +59,11 @@ h2{
 
   .anto{
     background-image: url(../recursos/img/MIC_2699.JPG);
-    height: 55vh;
-    width: 75VW;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     font-size: xx-large;
-    padding: 117px;
+    padding: 92px;
     margin: 13px;
   }
 

@@ -116,6 +116,12 @@ section p {
     width: 100%;
   }
 }
+@media (max-width: 550px) {
+  section p {
+    padding: 8px;
+    font-size: small;
+  }
+}
 form {
   margin: px;
   padding: 180px;
